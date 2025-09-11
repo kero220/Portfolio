@@ -98,6 +98,51 @@ h2 {
   color: #00ff88;
 }
 
+/* Education Section */
+#education {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#education h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00ff88;
+  text-align: center;
+}
+
+/* Education Timeline Style */
+.education-item {
+  background: #1a1a25;
+  border-left: 4px solid #00ff88;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.education-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 162, 255, 0.3);
+}
+.education-item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #00a2ff;
+}
+.education-item span {
+  font-size: 0.9rem;
+  color: #ccc;
+  display: block;
+  margin-bottom: 10px;
+}
+.education-item p {
+  font-size: 1rem;
+  color: #eee;
+  line-height: 1.5;
+}
+
 /* Work Grid */
 .work-grid {
   display: grid;
@@ -111,7 +156,12 @@ h2 {
   box-shadow: 0 4px 15px rgba(0, 255, 136, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card h3 {color: #00ff88}
+.card a {
+  color: #00a2ff;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 162, 255, 0.4);
